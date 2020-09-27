@@ -1,18 +1,62 @@
 <!doctype html>
 <html lang="en-us">
-
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jeffan's Game Corner</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link href="css/index.css" rel="stylesheet">
+  </head>
   <body class="template">
 
-    <p> Welcome to my personal website! Please ignore it's horribleness, I'm a backend developer. </p>
+    <div id="linked-nav"></div>
+    
+    <main role="main" class="container">
+      
+      <div class="jumbotron">
+        <h1 class="display-4">Home of Tap Dungeon!</h1>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p>Find the latest information and news on Tap Dungeon straight from the source!</p>
+      </div>
+          
+      <div class="overview">
+        <h2>Get in on Google Play or itch.io!</h2>
+        <hr>
+        <div class="row badge-row">
+          <div class="col-6">
+            <a href='https://play.google.com/store/apps/details?id=com.DarksphereEnterprises.TapDungeon&hl=en_US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="img-thumbnail" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+    
+          </div>
+          <div class="col-6">
+            <iframe class="img-thumbnail" src="https://itch.io/embed/56472?dark=true&amp;linkback=true" width="552" height="167" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Looking for something else? Check out these links for more.</p>
+            <ul>
+              <li><a href="tap_dungeon_scores.html">Tap Dungeon Leaderboards</a></li>
+              <li><a href="tap_dungeon_privacy_policy.html"> Tap Dungeon Privacy Policy </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    </main><!-- /.container -->
 
-    <p><iframe src="https://itch.io/embed/56472?dark=true&amp;linkback=true" width="552" height="167" frameborder="0"></iframe></p>
+    <footer class="footer">
 
-    <p> Like this stuff? Check out some of my other equally unimportant stuff! </p>
+      <div class="container">
+        <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+      </div>
+    </footer>
 
-    <ul>
-	  <li><a href="./tapdungeon_scores.html">Tap Dungeon Leaderboards</a></li>
-      <li><a href="./tapdungeonprivacypolicy.html"> Tap Dungeon Privacy Policy </a></li>
-    </ul>
 
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

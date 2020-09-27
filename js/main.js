@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+$(document).ready(function(){
+    $("#linked-nav").load("html/navbar.html")
+});

@@ -1,0 +1,49 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.badge-row {
+    display: flex;
+    align-items: center;
+}
+
+.badge-row div {
+    height: 100%;
+}
