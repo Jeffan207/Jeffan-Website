@@ -16,5 +16,5 @@ Thumbs.db
 .metadata
 /bin/
 
-
 .idea/
+node_modules/
