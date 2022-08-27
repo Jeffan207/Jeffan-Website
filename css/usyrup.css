@@ -5,3 +5,8 @@ body {
 .usyrup-branding {
     width: 75%
 }
+
+.jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
